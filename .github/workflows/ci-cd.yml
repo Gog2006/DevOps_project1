@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: read
+  security-events: write
+  packages: write
+
 env:
   NODE_VERSION: '18'
   DOCKER_REGISTRY: ghcr.io
