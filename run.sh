@@ -200,9 +200,9 @@ run_full_pipeline() {
     
     print_success "Full pipeline completed successfully!"
     echo ""
-    echo "🚀 Application is running at: http://localhost:3000"
-    echo "📊 Health check: http://localhost:3000/health"
-    echo "🔍 API info: http://localhost:3000/api/info"
+    echo "Application is running at: http://localhost:3000"
+    echo "Health check: http://localhost:3000/health"
+    echo "API info: http://localhost:3000/api/info"
     echo ""
     echo "To stop the application, run: $0 clean"
 }

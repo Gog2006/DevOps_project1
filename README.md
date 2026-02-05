@@ -1,8 +1,8 @@
-# DevOps Portfolio Project 🚀
+# DevOps Portfolio Project
 
 A comprehensive DevOps portfolio showcasing modern CI/CD practices, infrastructure as code, and automated deployment pipelines.
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates industry-standard DevOps skills through an end-to-end automated deployment pipeline featuring:
 
@@ -13,7 +13,7 @@ This project demonstrates industry-standard DevOps skills through an end-to-end 
 - **Configuration Management** - Ansible for automated server configuration (coming soon)
 - **Security Scanning** - Trivy vulnerability scanning and automated security checks
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌─────────────┐    ┌──────────────┐
@@ -35,7 +35,7 @@ This project demonstrates industry-standard DevOps skills through an end-to-end 
                                        └──────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ This project demonstrates industry-standard DevOps skills through an end-to-end 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/DevOps_project1.git
+   git clone https://github.com/Gog2006/DevOps_project1.git
    cd DevOps_project1
    ```
 
@@ -86,7 +86,7 @@ This project demonstrates industry-standard DevOps skills through an end-to-end 
    curl http://localhost:3000/health
    ```
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -111,7 +111,7 @@ docker run --rm -p 3000:3000 devops-portfolio-app:test
 docker run --rm devops-portfolio-app:test node healthcheck.js
 ```
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 The GitHub Actions workflow ([.github/workflows/ci-cd.yml](.github/workflows/ci-cd.yml)) includes:
 
@@ -142,7 +142,7 @@ The GitHub Actions workflow ([.github/workflows/ci-cd.yml](.github/workflows/ci-
 - End-to-end testing (planned)
 - Deployment notifications
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DevOps_project1/
@@ -165,7 +165,7 @@ DevOps_project1/
 └── README.md                   # This file
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -180,7 +180,7 @@ DevOps_project1/
 | **IaC** | Terraform (planned) | Infrastructure provisioning |
 | **Config Mgmt** | Ansible (planned) | Server configuration |
 
-## 📊 Monitoring & Health Checks
+## Monitoring & Health Checks
 
 ### Application Endpoints
 
@@ -204,7 +204,7 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD node healthcheck.js
 ```
 
-## 🔐 Security Features
+## Security Features
 
 - **Helmet.js** - Security headers middleware
 - **Non-root container user** - Enhanced container security
@@ -212,7 +212,7 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 - **Code scanning** - SARIF integration with GitHub Security
 - **Secrets management** - Environment-based configuration
 
-## 🌍 Environment Configuration
+## Environment Configuration
 
 ### Development
 ```bash
@@ -233,7 +233,7 @@ environment:
   - PORT=3000
 ```
 
-## 📈 Deployment Strategies
+## Deployment Strategies
 
 ### Current: Basic CI/CD
 - Automated testing on every push
@@ -246,7 +246,7 @@ environment:
 - Automated rollback capabilities
 - Infrastructure scaling
 
-## 🚦 Development Workflow
+## Development Workflow
 
 1. **Feature Development**
    ```bash
@@ -271,7 +271,7 @@ environment:
    # Merge to main for production deployment
    ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -304,7 +304,7 @@ npm start 2>&1 | tee app.log
 docker logs $(docker ps -q --filter ancestor=devops-portfolio-app)
 ```
 
-## 💰 Cost Estimation (AWS)
+## Cost Estimation (AWS)
 
 This project is designed to be AWS Free Tier compatible:
 
@@ -314,7 +314,7 @@ This project is designed to be AWS Free Tier compatible:
 - **S3**: ~$1-3/month
 - **Total estimated**: ~$17-20/month
 
-## 🧹 Cleanup
+## Cleanup
 
 ### Local Cleanup
 ```bash
@@ -328,22 +328,22 @@ npm run clean  # If available
 terraform destroy
 ```
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 This project showcases the following DevOps competencies:
 
-- ✅ **Version Control**: Git workflows and branching strategies
-- ✅ **Containerization**: Docker and Docker Compose
-- ✅ **CI/CD Pipelines**: GitHub Actions automation
-- ✅ **Testing**: Unit tests, integration tests, and code coverage
-- ✅ **Code Quality**: Linting, formatting, and security scanning
-- ✅ **Monitoring**: Health checks and application observability
-- 🔄 **Infrastructure as Code**: Terraform (in progress)
-- 🔄 **Configuration Management**: Ansible (in progress)
-- 🔄 **Cloud Deployment**: AWS services (planned)
-- 🔄 **Orchestration**: Kubernetes (advanced phase)
+- **Version Control**: Git workflows and branching strategies
+- **Containerization**: Docker and Docker Compose
+- **CI/CD Pipelines**: GitHub Actions automation
+- **Testing**: Unit tests, integration tests, and code coverage
+- **Code Quality**: Linting, formatting, and security scanning
+- **Monitoring**: Health checks and application observability
+- **Infrastructure as Code**: Terraform (in progress)
+- **Configuration Management**: Ansible (in progress)
+- **Cloud Deployment**: AWS services (planned)
+- **Orchestration**: Kubernetes (advanced phase)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -351,17 +351,14 @@ This project showcases the following DevOps competencies:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## Contact
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/YOUR_USERNAME/DevOps_project1](https://github.com/YOUR_USERNAME/DevOps_project1)
+Project Link: [https://github.com/Gog2006/DevOps_project1](https://github.com/Gog2006/DevOps_project1)
 
 ---
 
-**Built with ❤️ for DevOps Excellence**
-First public DevOps poject
+**Built for DevOps Excellence**

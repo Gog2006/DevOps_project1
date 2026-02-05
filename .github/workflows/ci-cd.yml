@@ -182,7 +182,7 @@ jobs:
     - name: Notify deployment
       if: success()
       run: |
-        echo "✅ Production deployment successful!"
+        echo "Production deployment successful!"
         echo "Image: ${{ needs.build.outputs.image-tag }}"
         # Future: Send notification to Slack/Teams/Email
 
@@ -202,4 +202,4 @@ jobs:
         echo "Running end-to-end tests..."
         # Future: Implement actual E2E tests using Playwright/Cypress
         # curl -f http://staging-url/health || exit 1
-        echo "✅ E2E tests passed"
+        echo "E2E tests passed"
